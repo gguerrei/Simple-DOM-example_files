@@ -16,7 +16,7 @@
   </head>
   <body data-new-gr-c-s-check-loaded="14.1153.0" data-gr-ext-installed="">
       <section>
-        <img src="./Simple DOM example_files/dinosaur.png" alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth.">
+        <img src="dinosaur.png" alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth.">
         <p>Here we will add a link to the <a href="https://www.mozilla.org/">Mozilla homepage</a></p>
       </section>
   
@@ -33,29 +33,10 @@
         const linkPara = document.querySelector("p");
         linkPara.appendChild(text);
         sect.appendChild(linkPara);
-        //sect.removeChild(linkPara);
+        sect.removeChild(linkPara);
         //linkPara.remove();
         //linkPara.parentNode.removeChild(linkPara);
         para.setAttribute("class", "highlight");
       </script>
-</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
-      div.grammarly-desktop-integration {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select:none;
-        user-select:none;
-      }
-
-      div.grammarly-desktop-integration:before {
-        content: attr(data-content);
-      }
-    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
+  </body>
+</html>
